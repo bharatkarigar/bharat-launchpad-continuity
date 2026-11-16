@@ -12,7 +12,9 @@
 6. **[REVIEW_HISTORY.md](REVIEW_HISTORY.md)** and **[EVIDENCE_INDEX.md](EVIDENCE_INDEX.md)** — historical rejections, exact source reports, limitations.
 7. **[Exact SHA/review candidate ledger](REVIEW_CANDIDATE_LEDGER.md)** — authoritative indexed reported verdicts and next gates.
 8. **[Nov 8–16 FULL DELTA](evidence/2026_11_16_FULL_DELTA.md)**, **[Cross-chat completeness audit](evidence/CONTINUITY_COMPLETENESS_AUDIT_2026_11_16.md)** and **[Mac report index](evidence/LOCAL_REVIEW_ARTIFACTS_2026_11_16.md)** — exact SHAs, review chronicle, Founder decisions, safety and source-access gaps.
-9. **[NEW_CHAT_BOOTSTRAP.md](NEW_CHAT_BOOTSTRAP.md)** — current message for new ChatGPT conversation.
+9. **[Wave 0–2 detailed context](evidence/PRE_P3_WAVES_0_TO_2_DETAILED_CONTEXT_2026_11_16.md)** and **[Wave 3–5 detailed context](evidence/PRE_P3_WAVES_3_TO_5_DETAILED_CONTEXT_2026_11_16.md)** — reviewed and reported contracts, QA and history.
+10. **[P2→Pre-P3 bridge](evidence/P2_CONTINUITY_BRIDGE_TO_PREP3_V10_4_2026_11_16.md)**, **[operating model](evidence/P2_TO_PREP3_RUNTIME_SAFETY_AND_AGENT_WORKFLOW_2026_11_16.md)** and **[original-source hash manifest](evidence/SOURCE_FILE_COVERAGE_AND_HASH_MANIFEST_2026_11_16.md)** — protected decisions, production restrictions, source/coverage gaps.
+11. **[NEW_CHAT_BOOTSTRAP.md](NEW_CHAT_BOOTSTRAP.md)** — current message for new ChatGPT conversation.
 
 ## Critical operating assumptions
 
