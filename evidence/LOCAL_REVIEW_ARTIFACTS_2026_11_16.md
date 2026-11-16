@@ -20,3 +20,5 @@ These paths are on the Founder's Mac, **not** available in this GitHub docs repo
 - Master ledger and original logs referenced by Claude (local only).
 - Local source worktree (reported): ~/Developer/bharat-launchpad-wave2 ; branches pre-p3/wave-5-platform-ux, pre-p3/sec-8c-474, pre-p3/sec-2-479.
 - Evidence access gap: the user did NOT upload actual Codex report contents for this update, only independent verdict summaries and paths. Later new chats should request original local reports when detailed vulnerability disposition matters. Never assert these files are on GitHub.
+
+- SEC-8c independent Codex R2 ACCEPTED report (local): `/tmp/CODEX_SEC8C_474_R2_INDEPENDENT_REVIEW_036da7b2_2026-11-16.md`; reported SHA-256 `b2613c441b4e1936905cd797acb26e9d16cb877275b845827347bcc561cf5ce0`. Not uploaded, not directly inspected. Save durable backup before /tmp may be purged.
