@@ -1,12 +1,12 @@
 # Bharat Launchpad — CURRENT EXECUTION STATE
-**As-of:** 2026-11-16, after Founder-provided SEC-2 integrated candidate 2298446b report (Asia/Kolkata). **Status:** verified GitHub documentation update; local code and Codex results are **reported** by Founder, not fetched from private Mac. Do not mistake GitHub continuity commits for code candidate commits.
+**As-of:** 2026-11-16, after Founder-provided integrated SEC-2 independent Codex ACCEPTED result. Execution outcomes are founder-reported; application Mac and original Codex report not accessed through public GitHub docs.
 
 ## Immediate handoff — READ THIS FIRST
 - Phase **Pre-P3**, controlled local engineering; **NO new Pre-P3 production release approved**.
 - Wave 5 **independent Codex R3 ACCEPTED**, exact application SHA `ce811b2a3f19307e1f68f3e96e67d601cc92b3bb` (report `~/Downloads/CODEX_WAVE5_R3_INDEPENDENT_REVIEW_ce811b2a_2026-11-16.md`). Acceptance is for that exact SHA, not later commits or live Shopify.
 - Wave 6 **independent Codex R1 REJECTED**, exact application SHA `db1bed9f81f82275f7257adbab976b3b5e92f332`: reproduced cross-company link, Staff manual supplemental WhatsApp via operate privilege, insufficient finance/order deletion protection, 9 FAIL rows and launch governance/live-proof blockers.
 - SEC-8c migration 474 initial candidate `6dabf8aadc1e509a1800bf00ebecb892391b18df` **Codex R1 REJECTED** (REPEATABLE READ bypass + preflight/trigger installation race). Fix-forward candidate `036da7b2b8020e87ff41663d8aa18e42f6000b56`, tag `sec8c-474-candidate-036da7b2`, Claude gates + Red-Team PASS; **independent Codex R2 ACCEPTED** (B1/B2 CLOSED; 23/23, chain 412/412). Packet `~/Downloads/BHARAT_LAUNCHPAD_WAVE_6_QA/SEC8C_474/SEC8C_474_CODEX_R2_PACKET.md`.
-- SEC-2 migration 479 **NEW integrated candidate `2298446b8f16246cd39daf1cbfccaa2dfde0692f`**, tag `sec2-479-candidate-2298446b`, forward merge of old SEC-2 `748d292d` and accepted SEC-8c `036da7b2`, reported 27/27 SEC-2, 23/23 SEC-8c, 413 migrations, Red-Team APPROVE; **independent Codex PENDING**. Prior `748d292d` packet superseded.
+- SEC-2 migration 479 **independent Codex ACCEPTED** exact merged application SHA `2298446b8f16246cd39daf1cbfccaa2dfde0692f`, tag `sec2-479-candidate-2298446b`; 474/479 integrated, native chain 413/413, F1/F2/N1 fail-before, both rollback orders proven per Founder-provided report. Original report bytes not archived here.
 - Final integrated Pre-P3 Codex and Wave 6 R2 remain pending. No source or production changes performed by this continuity update.
 
 ## Wave 6 frozen evidence: 110 rows
@@ -30,7 +30,7 @@ No J1–J11 complete live-provider journey marked launch-PASS; J3 locally 5/5 on
 - No production DB reads or writes, migrations, provider sends/writes, feature flags, release pins, deployments, release signing or go-live authorized here. Existing P2 provider-execution Enabled state is expected but not permission to send.
 
 ## Critical open release blockers
-- SEC-8c Codex R2 **ACCEPTED**; SEC-2 integrated SHA **reported and awaiting independent Codex**; Staff supplemental vendor authorization proof/fix; Wave 6 R2, then final integrated review.
+- SEC-8c Codex R2 **ACCEPTED**; SEC-2 integrated SHA **independent Codex ACCEPTED (Founder-reported)**; Staff supplemental vendor authorization proof/fix; Wave 6 R2, then final integrated review.
 - Wave 6 nine FAIL, four NOT PROVEN, thirteen EXTERNALLY BLOCKED; no full live J1–J11 proof. Some inherited sync failures and red tests documented; no waiver by default.
 - Release `verify-pins` RED (137 original refusals, 139 after 474 candidate), migration-333 rollback governance and repin Founder approval missing.
 - SEC-8c production existing cross-company-link **read-only count** not yet Founder-approved; migration must refuse if bad history found. SEC-5 / migration 367 production RLS read-only check also unapproved.
@@ -71,3 +71,11 @@ The [cross-chat completeness audit](evidence/CONTINUITY_COMPLETENESS_AUDIT_2026_
 - **Internal Red-Team:** APPROVE reported, no blocking finding; notes same-order 474/479 locks, compatible transaction mode, either rollback order, rare conflicts cleanly error. **Manual combined rollback only**; permanent combined rollback regression test suggested but not implemented. Codex must decide gate impact from source and real DB proof, without inventing scope or softening tests.
 - **Current review packet:** `~/Downloads/BHARAT_LAUNCHPAD_WAVE_6_QA/SEC2_CR6/SEC2_479_CODEX_PACKET_INTEGRATED.md`. Old packet for `748d292d` is superseded. No independent Codex verdict yet. No push, production DB, deployment, migration or provider execution reported.
 - **NEXT:** Founder manually runs independent READ-ONLY Codex on exact `2298446b8f16246cd39daf1cbfccaa2dfde0692f` and new packet. Reviewer independently verifies merge parents/bytes, SEC-2 F1/F2/N1 and finance-history deletion/concurrency/rollback safeguards, 474/479 combined guarantees, test provenance and unchanged inherited reds. Return ACCEPTED/REJECTED and exact evidence. **STOP**; no Staff/Wave 6 expansion until separate authorized next gate. Wave 6 R1 remains REJECTED; Staff supplemental vendor WhatsApp authorization bug OPEN; production Pre-P3 HOLD.
+
+
+## 2026-11-16 — SEC-2 integrated independent Codex ACCEPTED (Founder-provided result)
+- **Exact accepted application SHA:** `2298446b8f16246cd39daf1cbfccaa2dfde0692f`; tag `sec2-479-candidate-2298446b`; forward merge from old SEC-2 `748d292d` and accepted SEC-8c `036da7b2`. Founder relays independent Codex verified merge parents/tag, clean repository, disposable PostgreSQL stopped.
+- **Independent Codex verdict: `SEC-2 INTEGRATED: CODEX ACCEPTED`**, specifically this immutable SHA. Report on Founder Mac: `/tmp/CODEX_SEC2_479_INTEGRATED_REVIEW_2298446b_2026-11-16.md`; Founder-reported SHA-256 `ea3fb70fe859ec18a08ab4b6a51e967cd0062058a481fb619f3597a869eade39`. **Original bytes were not accessible to this documentation update.** Copy report from transient /tmp to preserved private evidence if needed.
+- Reported Codex evidence: SEC-2 27/27; SEC-8c 23/23; exactly seven added F1/F2/N1 tests fail-before on rejected SHA; combined rollback both directions PASS with fingerprint restored; native canonical chain 413/413; app security 49/49. Deferred D-MS10-2 remains explicitly red, NOT PASS. `company_privacy_348` / privacy and release-pin failures remain open release-only gates, not waived.
+- **Next authorized review stage:** scoped Staff supplemental vendor WhatsApp authorization security remediation (confirmed Wave 6 Codex R1 vulnerability), test-first, preserve existing Owner/Admin messaging and mature vendor workflows, no additional Staff feature redesign. Claude local fix + independent Red-Team → fresh immutable SHA → Founder manual independent Codex → Wave 6 R2 integrated candidate/full matrix. Do not assume this SEC-2 verdict approves Wave 6 or production.
+- **No production permission:** no production DB access/migration, provider sends/writes, release pin, flag, signed release, deployment or go-live authorization from this verdict. Wave 6 R1 at `db1bed9f` remains REJECTED until new integrated R2 review.
