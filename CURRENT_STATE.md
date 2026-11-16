@@ -48,3 +48,13 @@ No J1–J11 complete live-provider journey marked launch-PASS; J3 locally 5/5 on
 - **Exact code SHA:** `036da7b2b8020e87ff41663d8aa18e42f6000b56`
 - **Verdict:** ACCEPTED. R1 REPEATABLE READ bypass and preflight/installation race CLOSED. Fail-before on rejected `6dabf8aa`; SEC-8c tests 23/23; migrations 475 8/8, 477 9/9, 478 22/22; canonical migration chain 412/412, fingerprint matched, no new candidate blockers.
 - Report path and SHA-256 as above are **user-supplied references**; the Mac-local report is NOT available from this GitHub docs repo. Reported release-pin refusals 139, read-only production link count and controlled migration window pending.
+
+
+## Cross-chat history reconciliation — 16 Nov 2026 (not a new current gate)
+- This repository previously called Wave 0A R3 and Waves 0B–2 outcomes unknown. Older-chat references and inspected historical planning files now supply **reported** accepted checkpoints:
+  - Wave 0A WP06/WP07 `ab74f11459e1efdab62464fd4d7614b1132203eb` — reported Codex approved; 2026-11-08 source audit warned that its own pasted reviewer excerpt was incomplete, so original full report still needed.
+  - Wave 0B early `616c91bb23a77cc69be9f79ceab2bf8d17f465dd` — Codex approved **implemented scope only**, WP08/WP16 then partial; later WP08 `d46a50427078725225164c517f09e92d66bc60e7` reported approved.
+  - Consolidated Wave 0 `175327c520c1dbad1dbaeb5b5612c26cb32a961f` — Codex accepted **reported** and cited as Wave 1 approved base in a later Codex *mandate* (not the verdict report).
+  - Wave 1 `1848756e2a8de56cc761ad39376f43fd0806c066` — Codex approved **reported**, independently named frozen Wave 1 base in the Wave 2 static gap audit.
+  - Wave 2 `4598b4220d61a264dfba728d64fffaddbc8de115` — Codex R2 approved **reported**, named in Nov 14 W3/W4 execution plan.
+- For original report-byte gaps and plan/mandate-versus-verdict distinctions see [completeness audit](evidence/CONTINUITY_COMPLETENESS_AUDIT_2026_11_16.md), [review history](REVIEW_HISTORY.md) and [evidence index](EVIDENCE_INDEX.md). These historical recoveries **do not supersede** Wave 5/6/SEC-8c/SEC-2 current gate above, nor authorize production.
