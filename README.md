@@ -10,7 +10,8 @@
 4. **[canonical/FOUNDER_DECISIONS_V10_4.md](canonical/FOUNDER_DECISIONS_V10_4.md)** — exact V10.4 Founder decisions.
 5. **[canonical/PRE_P3_SCOPE_V10_4.md](canonical/PRE_P3_SCOPE_V10_4.md)** and **[canonical/PRE_P3_MASTER_PLAN_V10_4.md](canonical/PRE_P3_MASTER_PLAN_V10_4.md)** — approved planning baseline, with the current runtime gate in CURRENT_STATE.
 6. **[REVIEW_HISTORY.md](REVIEW_HISTORY.md)** and **[EVIDENCE_INDEX.md](EVIDENCE_INDEX.md)** — historical rejections, exact source reports, limitations.
-7. **[Exact SHA/review candidate ledger](REVIEW_CANDIDATE_LEDGER.md)** — authoritative indexed reported verdicts and next gates.\n8. **[Nov 8–16 FULL DELTA](evidence/2026_11_16_FULL_DELTA.md)**, **[Cross-chat completeness audit](evidence/CONTINUITY_COMPLETENESS_AUDIT_2026_11_16.md)** and **[Mac report index](evidence/LOCAL_REVIEW_ARTIFACTS_2026_11_16.md)** — exact SHAs, review chronicle, Founder decisions, safety and source-access gaps.
+7. **[Exact SHA/review candidate ledger](REVIEW_CANDIDATE_LEDGER.md)** — authoritative indexed reported verdicts and next gates.
+8. **[Nov 8–16 FULL DELTA](evidence/2026_11_16_FULL_DELTA.md)**, **[Cross-chat completeness audit](evidence/CONTINUITY_COMPLETENESS_AUDIT_2026_11_16.md)** and **[Mac report index](evidence/LOCAL_REVIEW_ARTIFACTS_2026_11_16.md)** — exact SHAs, review chronicle, Founder decisions, safety and source-access gaps.
 9. **[NEW_CHAT_BOOTSTRAP.md](NEW_CHAT_BOOTSTRAP.md)** — current message for new ChatGPT conversation.
 
 ## Critical operating assumptions
