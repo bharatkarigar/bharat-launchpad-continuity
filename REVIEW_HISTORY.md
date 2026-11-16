@@ -67,3 +67,15 @@ Last reconciled 2026-11-08. Each entry describes **reported review results**, no
 
 ### Future required gate
 Separate SEC-8c R2 independent Codex → integrated SEC-2 Codex → targeted Staff security fix/integration Wave 6 R2 Codex → final integrated Pre-P3 Codex → external/staging/live proof, pins, release governance and separate Founder production permission. **No code push/deploy/prod action through this documentation update.**
+
+
+---
+
+## 2026-11-16 — SEC-8c Codex R2 independently ACCEPTED (latest outcome)
+**Provenance:** Founder pasted independent Codex result in ChatGPT; Mac-local report itself was not fetched by this repository update.
+- Exact accepted code SHA: `036da7b2b8020e87ff41663d8aa18e42f6000b56`; tag `sec8c-474-candidate-036da7b2`.
+- Previous rejected SHA `6dabf8aadc1e509a1800bf00ebecb892391b18df` remains preserved. R1 B1 REPEATABLE READ concurrency bypass **CLOSED**; R1 B2 migration preflight/installation race **CLOSED**; fail-before tests reproduced on rejected candidate.
+- Codex results: SEC-8c 23/23; dependent migration 475 8/8, 477 9/9, 478 22/22; canonical migration chain 412/412; matched fingerprint; no new candidate-level blockers.
+- Codex report on user Mac `/tmp/CODEX_SEC8C_474_R2_INDEPENDENT_REVIEW_036da7b2_2026-11-16.md`, reported SHA-256 `b2613c441b4e1936905cd797acb26e9d16cb877275b845827347bcc561cf5ce0`; original file bytes not in continuity repo.
+- Acceptance does NOT authorize production. 139 verify-pins refusals, read-only production existing-data preflight, controlled migration window and production apply remain pending.
+- **New next gate:** Merge accepted SEC-8c forward into SEC-2 `pre-p3/sec-2-479` without rebasing/history loss, rerun 474/479 integrated tests/Red-Team, freeze NEW SHA and run separate SEC-2 Codex. Old SEC-2 `748d292d` only internally approved, NOT Codex-accepted. Wave 6 R1 remains REJECTED and the Staff supplemental WhatsApp privilege issue remains OPEN.
