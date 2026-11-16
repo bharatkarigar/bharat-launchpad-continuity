@@ -10,12 +10,13 @@
 4. **[canonical/FOUNDER_DECISIONS_V10_4.md](canonical/FOUNDER_DECISIONS_V10_4.md)** — exact V10.4 Founder decisions.
 5. **[canonical/PRE_P3_SCOPE_V10_4.md](canonical/PRE_P3_SCOPE_V10_4.md)** and **[canonical/PRE_P3_MASTER_PLAN_V10_4.md](canonical/PRE_P3_MASTER_PLAN_V10_4.md)** — approved planning baseline, with the current runtime gate in CURRENT_STATE.
 6. **[REVIEW_HISTORY.md](REVIEW_HISTORY.md)** and **[EVIDENCE_INDEX.md](EVIDENCE_INDEX.md)** — historical rejections, exact source reports, limitations.
-7. **[NEW_CHAT_BOOTSTRAP.md](NEW_CHAT_BOOTSTRAP.md)** — short message for a new ChatGPT conversation.
+7. **[Nov 8–16 FULL DELTA](evidence/2026_11_16_FULL_DELTA.md)** and **[Mac report index](evidence/LOCAL_REVIEW_ARTIFACTS_2026_11_16.md)** — exact SHAs, review chronicle, Founder decisions, safety and source-access gaps.
+8. **[NEW_CHAT_BOOTSTRAP.md](NEW_CHAT_BOOTSTRAP.md)** — current message for new ChatGPT conversation.
 
 ## Critical operating assumptions
 
 - **Do not infer launch readiness from plans, screenshots, mocked tests, or earlier PASS claims.**
-- The active Wave 0A safety candidate is `ab74f11459e1efdab62464fd4d7614b1132203eb` and **Codex review #3 is pending** as of the latest supplied update; Wave 0A is **OPEN**. Do not start Wave 0B.
+- **Current as of Nov 16:** Wave 5 independent Codex R3 **ACCEPTED** `ce811b2a`; Wave 6 independent Codex R1 **REJECTED** `db1bed9f`; SEC-8c R2 **PENDING** at `036da7b2` after first SEC-8c Codex rejection; SEC-2 `748d292d` internal approved but Codex held for accepted SEC-8c integration. See `CURRENT_STATE.md` and [Nov 8–16 full delta](evidence/2026_11_16_FULL_DELTA.md). Wave 0A text elsewhere is historical.
 - No app changes, source-branch changes, provider/WhatsApp calls, migrations, pushes, merges, or production actions are authorized by maintaining this continuity repository.
 - Recorded evidence has levels: FOUNDER LOCKED, REPO/TOOL VERIFIED, USER/CLAUDE REPORTED, CODEX REPORTED, NOT PROVEN. A report is not a live source-of-truth for subsequent commits.
 - Keep personal payment identifiers, access tokens, actual customer PII, and secrets out of this repository even if it is public.

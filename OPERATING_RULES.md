@@ -5,7 +5,7 @@
 - Preserve existing mature Shopify/Wix, Mini-Store, fulfilment, vendor, WhatsApp and Growth functions; fix broken connections and unsafe paths, not arbitrary rewrites.
 - Inventory: no automatic numerical stock decrement/restore from Launchpad order Confirm/Cancel; provider-owned stock; manual explicitly Owner-approved, audited provider inventory edits through Growth allowed.
 - Only Shopify OR Wix as external primary store per company, optional Mini-Store. Reject second external store explicitly.
-- WP07/WP06 Wave 0A is the only active implementation scope until approved; all later waves gated.
+- **Historical rule (Nov 8):** WP07/WP06 Wave 0A was the only active scope then. **Superseded for active status** by later Founder-authorized Wave 3–6 execution, limited Wave 6 provisional QA sequencing exception and narrowly approved SEC-8c/SEC-2 local remediation (see CURRENT_STATE and dated full delta). Independent review and Founder go-live gates are NOT waived.
 - No unauthorised production DB, migrations, flags, provider write, webhook replay, WhatsApp send, customer email, deploy, merge or release actions.
 
 ## Evidence and review

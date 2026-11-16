@@ -34,3 +34,36 @@ Last reconciled 2026-11-08. Each entry describes **reported review results**, no
 - Double-submit idempotency, historical payee strings in Git history, low-entropy fingerprints, two unused unscoped visitor helpers, actual E2E DB/cookies/provider confirmation.
 - WP07 also changes Bharat Karigar's own payment_pending messaging until its company saves a template: accepted safety trade-off.
 - No approved rewrite/cleanup of Git history or live tenant migrations.
+
+
+---
+
+## 2026-11-16 continuity update — Waves 3–6 and security independent gates
+**This dated addendum supersedes the older "Wave 0A active" headline above for CURRENT status, but preserves original R1/R2/Wave 0A history.** Exact Wave 0A third Codex outcome and W0B–2 review SHAs are not in currently provided records; acquire full local ledgers before asserting details. Full comprehensive ledger: [2026 Nov 8–16 delta](evidence/2026_11_16_FULL_DELTA.md).
+
+### Wave 3 / Wave 4 intermediate reported acceptance
+- Wave 3 Codex-accepted reported SHA `4cae4ada7731ebc302a6468aa153479a6e7c9d16` (WP05/WP17/WP18). Actual report not stored here.
+- Wave 4 Codex R2-accepted reported SHA `1b2695e5fd6d44ac96f992ce4733a1792314709f` (WP22/WP23 Growth/Ask AI Shopify/Wix). Actual report not stored here.
+
+### Wave 5 (WP15/16/19) independent Codex history
+- **R1 REJECTED** SHA `a4c5374c6ee9937888d68e02586e9fed5ea774dd`: B1 privacy triage audit atomicity; B2 Shopify duplicate blog draft; B3 Staff Shipping Settings nav 404.
+- **R2 REJECTED** SHA `c3b605d260d58f8b412e1436b2711a58315174a5`: B1/B3 CLOSED; B2-R2 ambiguous persisted Shopify create + 503 + temporarily empty read-back caused second create; B2-R2b uncertain claim could stick after later positive reconciliation.
+- **R3 ACCEPTED** independently exact SHA `ce811b2a3f19307e1f68f3e96e67d601cc92b3bb`; all prior findings CLOSED. Codex reproduced/verified migration 478 22/22, integrated Shopify claim E2E 17/17, regressions 174/174; independent fresh build limited by isolated font dependency, exact-SHA supplied build evidence accepted; live Shopify unproven. Founder-provided Codex report local (see evidence index).
+
+### Wave 6 (WP20) independent review
+- **R1 REJECTED** exact SHA `db1bed9f81f82275f7257adbab976b3b5e92f332`. Codex reproduced cross-tenant provider/order link SEC-8c, newly confirmed Staff `operate` supplemental vendor WhatsApp manual initiation untested by RT-06, SEC-2 finance retained-data guard gap, nine FAIL matrix rows, no live J1–J11, verify-pins and migration-333 red. Independent 1,183 focused PASS assertions, 411 migration chain and more. Wave 6 R2 not prepared/accepted on a final integrated SHA.
+- 83 local/simulated PASS, 9 FAIL, 1 deferred, 4 NOT PROVEN, 13 external; no live-provider launch-PASS. Decisive Founder defer: MS-10 abandoned-cart worker `PP3-BL-01`; WA-02 existing behavior unchanged, configure Delhivery later; Staff convenience changes not authorized, but **real security bypass cannot be waived**.
+
+### SEC-8c migration 474
+- Red-Team R1 initially rejected late-created/deleted-recreated links and dual-write races; R2 internal approved `6dabf8aadc1e509a1800bf00ebecb892391b18df`.
+- **Independent Codex R1 REJECTED** that SHA; two CONFIRMED blockers: alternate REPEATABLE READ snapshot race and migration preflight/trigger-installation writer race, even with 16/16 PostgreSQL passing tests.
+- Founder local-only narrow fix-forward approved: restrict protected writes to READ COMMITTED (reject RR/SERIALIZABLE, SQLSTATE 55000), lock both tables against writes before migration preflight, atomic 474/rollback transaction and tests 474q–474v.
+- **R2 candidate `036da7b2b8020e87ff41663d8aa18e42f6000b56`: Claude tests 23/23 and Red-Team APPROVED; independent Codex R2 PENDING.** No claim of closure. Production preflight/release not approved.
+
+### SEC-2 / CR-6 migration 479
+- First local `b34b81d0` Red-Team R1 REJECTED F1 identity/company-change deletion bypass; F2 concurrent payment/RTD protection-mark omission; N1 unsafe silent no-op in migration 319 compatibility. Founder authorized focused local remediation.
+- **Internal Red-Team R2 APPROVED** `748d292d`, claimed F1/F2/N1 fixed and native checks pass. **Codex NOT YET RUN and held** because candidate descends from independently rejected SEC8c `6dabf8aa`; after SEC8c R2 approval merge accepted base forward (no rebase), new SHA + tests/Red-Team, then Codex.
+- No finance-risk waiver, no production migration authority.
+
+### Future required gate
+Separate SEC-8c R2 independent Codex → integrated SEC-2 Codex → targeted Staff security fix/integration Wave 6 R2 Codex → final integrated Pre-P3 Codex → external/staging/live proof, pins, release governance and separate Founder production permission. **No code push/deploy/prod action through this documentation update.**
