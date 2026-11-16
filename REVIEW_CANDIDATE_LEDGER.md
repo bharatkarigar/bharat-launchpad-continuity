@@ -23,13 +23,13 @@
 | SEC-8c fix R2 | `036da7b2b8020e87ff41663d8aa18e42f6000b56` | **CODEX R2 ACCEPTED** | B1/B2 closed, 23/23; chain 412/412. Production not authorized |
 | SEC-2 first | `b34b81d0` | RED-TEAM R1 REJECTED | order identity, concurrency, migration319 silent no-op |
 | SEC-2 current (old base) | `748d292d` | RED-TEAM R2 APPROVED; CODEX NOT RUN | **Needs accepted SEC8c merge**, new SHA and new gates |
-| SEC-2 integrated next | NOT YET REPORTED | PENDING | No live progress claim; prepare new packet, independent Codex |
+| SEC-2 integrated candidate | `2298446b8f16246cd39daf1cbfccaa2dfde0692f` | **RED-TEAM APPROVED (reported); INDEPENDENT CODEX PENDING** | Forward merge of `748d292d` and accepted `036da7b2`; 27/27+23/23+413 chain reported; review actual integrated packet; no production authorization |
 | Staff supplemental WhatsApp authorization | Separate R2 fix NOT YET REPORTED | CONFIRMED Codex Wave6 R1 security finding | tests-first scoped permission correction required |
 | Wave 6 R2 integrated | NOT YET REPORTED | PENDING | exact new SHA and full QA/test/Red-Team/Codex |
 | Final integrated Pre-P3 | NOT YET REPORTED | PENDING | new exact SHA + complete external/live/pins/governance gates |
 
 ## Active next sequence
-1. Accepted SEC-8c `036da7b2` → local SEC-2 branch **no-rebase forward merge**, integrated native DB+concurrency regression, independent Red-Team and freeze NEW SEC-2 candidate SHA.
+1. Founder reports SEC-8c `036da7b2` successfully merged forward into SEC-2 branch on new SHA `2298446b`; integrated tests and Red-Team APPROVE reported, Codex NOT YET RUN.
 2. Founder manually runs independent Codex SEC-2 review on new SHA; reject/accept only exact SHA, preserve previous history.
 3. Targeted Staff supplemental vendor WhatsApp permission remediation: preserve Owner/Admin-only messaging, no unrelated redesign; tests-first, independent adversarial review.
 4. Reconcile security fixes and Staff into NEW Wave6 R2 candidate; rerun 110-row matrix, J1–J11, production-equivalent staging and external safety evidence where approved. Then fresh independent Codex and final integrated independent review.
@@ -37,3 +37,12 @@
 
 ## Files / source authority
 See [CURRENT_STATE.md](CURRENT_STATE.md), [REVIEW_HISTORY.md](REVIEW_HISTORY.md), [EVIDENCE_INDEX.md](EVIDENCE_INDEX.md), [cross-chat completeness audit](evidence/CONTINUITY_COMPLETENESS_AUDIT_2026_11_16.md), [Wave 0–2 history](evidence/PRE_P3_WAVES_0_TO_2_DETAILED_CONTEXT_2026_11_16.md), [Wave 3–5 history](evidence/PRE_P3_WAVES_3_TO_5_DETAILED_CONTEXT_2026_11_16.md). Original independent report bytes not necessarily on GitHub. Always label provenance.
+
+
+## 2026-11-16 — SEC-2 accepted-base forward integration (Founder/Claude-reported; Codex PENDING)
+- **New integrated exact code SHA:** `2298446b8f16246cd39daf1cbfccaa2dfde0692f`, tag `sec2-479-candidate-2298446b`. Founder relays that this is a **forward merge** of old SEC-2 `748d292d` and independently Codex-accepted SEC-8c `036da7b2b8020e87ff41663d8aa18e42f6000b56`, without rebase or history rewrite. Mac-local branch/code not fetched by this public continuity repository.
+- **Reported migration provenance:** 474 and 479 migrations and their tests byte-identical to respective pre-merge candidates; only manifest and schema fingerprint had merge conflicts. This is a claim for independent Codex to verify against exact parents, not a fresh independent Git diff.
+- **Reported local results:** SEC-2 27/27; SEC-8c 23/23 incl two-session races; security 8/8; 413 native forward migrations; 475/477/478 8/8, 9/9, 22/22; older 365/367, 319, bundle15/16 all pass; app 49/49; E2E 216/217, with the one expected-red D-MS10-2 explicitly deferred `PP3-BL-01`; manifest/type/lint/privacy/diff pass. Inherited `company_privacy_348` and release `verify-pins` remain red; do not treat as accepted or waive. First E2E attempt invalid because test DB stopped prematurely; valid rerun 216/217.
+- **Internal Red-Team:** APPROVE reported, no blocking finding; notes same-order 474/479 locks, compatible transaction mode, either rollback order, rare conflicts cleanly error. **Manual combined rollback only**; permanent combined rollback regression test suggested but not implemented. Codex must decide gate impact from source and real DB proof, without inventing scope or softening tests.
+- **Current review packet:** `~/Downloads/BHARAT_LAUNCHPAD_WAVE_6_QA/SEC2_CR6/SEC2_479_CODEX_PACKET_INTEGRATED.md`. Old packet for `748d292d` is superseded. No independent Codex verdict yet. No push, production DB, deployment, migration or provider execution reported.
+- **NEXT:** Founder manually runs independent READ-ONLY Codex on exact `2298446b8f16246cd39daf1cbfccaa2dfde0692f` and new packet. Reviewer independently verifies merge parents/bytes, SEC-2 F1/F2/N1 and finance-history deletion/concurrency/rollback safeguards, 474/479 combined guarantees, test provenance and unchanged inherited reds. Return ACCEPTED/REJECTED and exact evidence. **STOP**; no Staff/Wave 6 expansion until separate authorized next gate. Wave 6 R1 remains REJECTED; Staff supplemental vendor WhatsApp authorization bug OPEN; production Pre-P3 HOLD.
