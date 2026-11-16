@@ -16,7 +16,7 @@
 ## Critical operating assumptions
 
 - **Do not infer launch readiness from plans, screenshots, mocked tests, or earlier PASS claims.**
-- **Current as of Nov 16:** Wave 5 independent Codex R3 **ACCEPTED** `ce811b2a`; Wave 6 independent Codex R1 **REJECTED** `db1bed9f`; SEC-8c R2 **PENDING** at `036da7b2` after first SEC-8c Codex rejection; SEC-2 `748d292d` internal approved but Codex held for accepted SEC-8c integration. See `CURRENT_STATE.md` and [Nov 8–16 full delta](evidence/2026_11_16_FULL_DELTA.md). Wave 0A text elsewhere is historical.
+- **Current as of Nov 16:** Wave 5 independent Codex R3 **ACCEPTED** `ce811b2a`; Wave 6 independent Codex R1 **REJECTED** `db1bed9f`; SEC-8c R2 **ACCEPTED** at `036da7b2` after first Codex rejection (B1/B2 CLOSED); SEC-2 `748d292d` internal approved but Codex not yet run — **next merge accepted SEC-8c forward**, reverify and freeze new SEC-2 SHA for review. See `CURRENT_STATE.md` and [Nov 8–16 full delta](evidence/2026_11_16_FULL_DELTA.md). Wave 0A text elsewhere is historical.
 - No app changes, source-branch changes, provider/WhatsApp calls, migrations, pushes, merges, or production actions are authorized by maintaining this continuity repository.
 - Recorded evidence has levels: FOUNDER LOCKED, REPO/TOOL VERIFIED, USER/CLAUDE REPORTED, CODEX REPORTED, NOT PROVEN. A report is not a live source-of-truth for subsequent commits.
 - Keep personal payment identifiers, access tokens, actual customer PII, and secrets out of this repository even if it is public.
