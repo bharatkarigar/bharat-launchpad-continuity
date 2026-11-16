@@ -72,3 +72,9 @@ The public documentation repo now contains additional curated, provenance-labell
 5. [Completeness gap audit](evidence/CONTINUITY_COMPLETENESS_AUDIT_2026_11_16.md): what still needs original locally held reports, full 110-row matrix, complete 506 manifest/UX source and actual live provider evidence.
 
 **IMPORTANT:** These additions do NOT make the repository a line-for-line copy of all ChatGPT conversations. Original local Codex report bytes, some complete verification transcripts and unuploaded private project files remain absent. Because this repo is PUBLIC, do not blindly paste raw customer messages, personal payment details, private tokens, emails or full unredacted conversations. Source gaps must remain labeled NOT ARCHIVED / REPORTED / NOT PROVEN rather than hallucinated.
+
+
+### Historical P2 bridge and mounted-source hash manifest — audit expansion
+- [P2→Pre-P3 decisions and protected Product Onboarding Q17](evidence/P2_CONTINUITY_BRIDGE_TO_PREP3_V10_4_2026_11_16.md): dated P2 baseline, Q17 three existing AI helpers and 20/20 decisions, financial/commerce status, vendor/shipping/WhatsApp/provider constraints. Not a fresh live code audit.
+- [Source coverage and SHA-256 inventory](evidence/SOURCE_FILE_COVERAGE_AND_HASH_MANIFEST_2026_11_16.md): exact hashes of five available historical source bundles plus the significant local audit/contract file index, original bytes unavailable in PUBLIC GitHub, next archival steps.
+- Full precision matters: independently accepted Codex **Wave5** `ce811b2a3f19307e1f68f3e96e67d601cc92b3bb`, **SEC8c** `036da7b2b8020e87ff41663d8aa18e42f6000b56`; **Wave6 R1 REJECTED** `db1bed9f81f82275f7257adbab976b3b5e92f332`; SEC2 old base `748d292d` still not Codex-reviewed. Do not mistake attached review prompt for actual final report.
