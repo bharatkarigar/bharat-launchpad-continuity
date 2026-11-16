@@ -1,12 +1,12 @@
 # Bharat Launchpad — CURRENT EXECUTION STATE
-**As-of:** 2026-11-16 ~14:47 Asia/Kolkata (latest Founder-provided report). **Status:** verified GitHub documentation update; local code and Codex results are **reported** by Founder, not fetched from private Mac. Do not mistake GitHub continuity commits for code candidate commits.
+**As-of:** 2026-11-16, after Founder-provided independent SEC-8c Codex R2 result (Asia/Kolkata). **Status:** verified GitHub documentation update; local code and Codex results are **reported** by Founder, not fetched from private Mac. Do not mistake GitHub continuity commits for code candidate commits.
 
 ## Immediate handoff — READ THIS FIRST
 - Phase **Pre-P3**, controlled local engineering; **NO new Pre-P3 production release approved**.
 - Wave 5 **independent Codex R3 ACCEPTED**, exact application SHA `ce811b2a3f19307e1f68f3e96e67d601cc92b3bb` (report `~/Downloads/CODEX_WAVE5_R3_INDEPENDENT_REVIEW_ce811b2a_2026-11-16.md`). Acceptance is for that exact SHA, not later commits or live Shopify.
 - Wave 6 **independent Codex R1 REJECTED**, exact application SHA `db1bed9f81f82275f7257adbab976b3b5e92f332`: reproduced cross-company link, Staff manual supplemental WhatsApp via operate privilege, insufficient finance/order deletion protection, 9 FAIL rows and launch governance/live-proof blockers.
-- SEC-8c migration 474 initial candidate `6dabf8aadc1e509a1800bf00ebecb892391b18df` **Codex R1 REJECTED** (REPEATABLE READ bypass + preflight/trigger installation race). Fix-forward candidate `036da7b2b8020e87ff41663d8aa18e42f6000b56`, tag `sec8c-474-candidate-036da7b2`, Claude gates + Red-Team PASS; **independent Codex R2 PENDING**. Packet `~/Downloads/BHARAT_LAUNCHPAD_WAVE_6_QA/SEC8C_474/SEC8C_474_CODEX_R2_PACKET.md`.
-- SEC-2 migration 479 candidate `748d292d`, tag `sec2-479-candidate-748d292d`, Claude internal + Red-Team R2 PASS. **Codex ON HOLD** because this candidate descended from the *rejected* SEC-8c first candidate; after SEC-8c R2 ACCEPTED, merge accepted SEC-8c forward without rebase, rerun SEC-2 gates, freeze NEW SHA and then independent Codex.
+- SEC-8c migration 474 initial candidate `6dabf8aadc1e509a1800bf00ebecb892391b18df` **Codex R1 REJECTED** (REPEATABLE READ bypass + preflight/trigger installation race). Fix-forward candidate `036da7b2b8020e87ff41663d8aa18e42f6000b56`, tag `sec8c-474-candidate-036da7b2`, Claude gates + Red-Team PASS; **independent Codex R2 ACCEPTED** (B1/B2 CLOSED; 23/23, chain 412/412). Packet `~/Downloads/BHARAT_LAUNCHPAD_WAVE_6_QA/SEC8C_474/SEC8C_474_CODEX_R2_PACKET.md`.
+- SEC-2 migration 479 candidate `748d292d`, tag `sec2-479-candidate-748d292d`, Claude internal + Red-Team R2 PASS but **Codex not yet performed**. Candidate descended from rejected SEC-8c R1 base; **now that SEC-8c R2 is ACCEPTED**, merge accepted `036da7b2` forward without rebase, rerun SEC-2 gates and Red-Team, freeze NEW SHA, then independent Codex.
 - Final integrated Pre-P3 Codex and Wave 6 R2 remain pending. No source or production changes performed by this continuity update.
 
 ## Wave 6 frozen evidence: 110 rows
@@ -30,19 +30,21 @@ No J1–J11 complete live-provider journey marked launch-PASS; J3 locally 5/5 on
 - No production DB reads or writes, migrations, provider sends/writes, feature flags, release pins, deployments, release signing or go-live authorized here. Existing P2 provider-execution Enabled state is expected but not permission to send.
 
 ## Critical open release blockers
-- SEC-8c R2 Codex; SEC-2 new integrated SHA and Codex; Staff supplemental vendor authorization proof/fix; subsequent Wave 6 R2, then final integrated review.
+- SEC-8c Codex R2 **ACCEPTED**; still open: SEC-2 new integrated SHA and Codex; Staff supplemental vendor authorization proof/fix; Wave 6 R2, then final integrated review.
 - Wave 6 nine FAIL, four NOT PROVEN, thirteen EXTERNALLY BLOCKED; no full live J1–J11 proof. Some inherited sync failures and red tests documented; no waiver by default.
 - Release `verify-pins` RED (137 original refusals, 139 after 474 candidate), migration-333 rollback governance and repin Founder approval missing.
 - SEC-8c production existing cross-company-link **read-only count** not yet Founder-approved; migration must refuse if bad history found. SEC-5 / migration 367 production RLS read-only check also unapproved.
 - SEC-2 finance-trigger removal not production authorized; production Pre-P3 migrations 454–479 not applied (per report), staging Supabase absent due to invoice issue, Shopify/Wix/Delhivery/WhatsApp live proof and Vercel Pre-P3 build/release readiness missing.
 - Freeze all candidates; preserve rejected histories and evidence. Development worktrees on Founder's Mac not available via documentation repo.
 
-## Exact NEXT ACTION — Founder manual Codex SEC-8c R2
-1. Open `SEC8C_474_CODEX_R2_PACKET.md` locally; independent Codex review **exact** `036da7b2b8020e87ff41663d8aa18e42f6000b56` versus prior rejected `6dabf8aa...`, full original R1 report.
-2. Independently verify isolation handling, real two-session races, preflight locks before validation, transaction/runner compatibility, 23 tests and regression/rollback.
-3. Demand ACCEPTED or REJECTED with exact SHA, reproducible evidence; READ-ONLY, NO production access, app edits or config changes.
-4. If ACCEPTED, merge SEC-8c forward into SEC-2 branch (new SHA; no rebase), reverify and Red-Team then Codex SEC-2; then Staff authorization fix and integrated Wave 6 R2. If REJECTED, minimal local tests-first fix plan, never reinterpret current candidate as accepted. Founder authorization for fresh code if required.
-5. Final integrated Codex plus release-gated external staging, read-only production checks, pins and eventual Founder go-live remain separate.
+## Exact NEXT ACTION — SEC-2 integration on accepted SEC-8c base
+1. SEC-8c R2 **ACCEPTED** by independent Codex exact `036da7b2b8020e87ff41663d8aa18e42f6000b56`, B1/B2 CLOSED, 23/23 and chain 412/412. Report on Founder's Mac: `/tmp/CODEX_SEC8C_474_R2_INDEPENDENT_REVIEW_036da7b2_2026-11-16.md`; reported SHA256 `b2613c441b4e1936905cd797acb26e9d16cb877275b845827347bcc561cf5ce0`.
+2. Claude MAIN: integrate accepted SEC-8c forward into local `pre-p3/sec-2-479` via merge commit, **no rebase or rewriting history**; one global writing Builder. Preserve both frozen candidates and rejected SHAs. This is local-only, with no production authorization.
+3. Run full 474/479 integrated native and two-session concurrency tests, migration chain, TypeScript/lint/privacy, relevant E2E, then independent Red-Team. Any genuine new defect requires tests-first fix-forward within approved scope; escalate unapproved changes.
+4. Freeze new integrated SEC-2 SHA and update its Codex packet; Founder runs independent Codex on the new SHA. The old `748d292d` is NOT Codex-accepted.
+5. Subsequently close confirmed Staff supplemental vendor WhatsApp authorization issue, integrate Wave 6 R2 with new SHA/retested 110-row matrix, final independent Codex. External live provider, SEC-5, pin/333, staging and release gates remain unproven/unapproved. **No Pre-P3 production release permission.**
 
-## Historical context, authority and evidence limits
-Old Nov 8 Wave 0A snapshot and its first two Codex rejections remain in [review history](REVIEW_HISTORY.md). Precise Wave 0A Codex #3 and Waves 0B–2 acceptance history **not independently present in this repo or last conversation**; do not fabricate. Intermediate Wave 3 `4cae4ada...` and Wave 4 `1b2695e5...` Codex accepted **reported**. Complete chronology [Nov 8–16 delta](evidence/2026_11_16_FULL_DELTA.md); Mac files [local artifact index](evidence/LOCAL_REVIEW_ARTIFACTS_2026_11_16.md); canonical V10.4 decisions remain authoritative.
+## Latest Codex event — SEC-8c R2 (Founder-provided)
+- **Exact code SHA:** `036da7b2b8020e87ff41663d8aa18e42f6000b56`
+- **Verdict:** ACCEPTED. R1 REPEATABLE READ bypass and preflight/installation race CLOSED. Fail-before on rejected `6dabf8aa`; SEC-8c tests 23/23; migrations 475 8/8, 477 9/9, 478 22/22; canonical migration chain 412/412, fingerprint matched, no new candidate blockers.
+- Report path and SHA-256 as above are **user-supplied references**; the Mac-local report is NOT available from this GitHub docs repo. Reported release-pin refusals 139, read-only production link count and controlled migration window pending.
