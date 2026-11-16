@@ -2,7 +2,7 @@
 ## Founder governance
 - Approved Founder Registry V10.4 controls product behavior. Never reinterpret decisions from an audit's suggestion. New Founder decisions require explicit user intent and an auditable addendum.
 - No repeatedly asking answered questions; search registry/evidence first.
-- Preserve existing mature Shopify/Wix, Mini-Store, fulfilment, vendor, WhatsApp and Growth functions; fix broken connections and unsafe paths, not arbitrary rewrites.
+- Preserve existing mature Shopify/Wix, Mini-Store, fulfilment, vendor, WhatsApp and Growth functions; fix broken connections and unsafe paths, not arbitrary rewrites. **Product Onboarding Q17 correction:** existing in-module AI description/color/price helpers are already working and MUST be preserved; product decision round 20/20 resolved. Do not remove/move those helpers as 'new optional AI' merely to consolidate into Growth/Ask AI. See dated P2→Pre-P3 bridge.
 - Inventory: no automatic numerical stock decrement/restore from Launchpad order Confirm/Cancel; provider-owned stock; manual explicitly Owner-approved, audited provider inventory edits through Growth allowed.
 - Only Shopify OR Wix as external primary store per company, optional Mini-Store. Reject second external store explicitly.
 - **Historical rule (Nov 8):** WP07/WP06 Wave 0A was the only active scope then. **Superseded for active status** by later Founder-authorized Wave 3–6 execution, limited Wave 6 provisional QA sequencing exception and narrowly approved SEC-8c/SEC-2 local remediation (see CURRENT_STATE and dated full delta). Independent review and Founder go-live gates are NOT waived.
