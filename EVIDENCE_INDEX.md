@@ -45,3 +45,9 @@ Explicit Founder decision controls product requirements. Actual latest code can 
 - Local Wave 6 matrix and state at `~/Downloads/BHARAT_LAUNCHPAD_WAVE_6_QA/W6_MATRIX_CLASSIFIED.md`, `W6_BLOCKERS_STATUS.md`, `W6_FOUNDER_DECISIONS_2026-11-16.md`, `MORNING_STATUS.md`, master ledger. **Not uploaded to continuity repo.**
 - Past statements above saying latest result for Wave 0A still pending refer to **2026-11-08 historical checkpoint**; current program has moved through Wave 5/6 and security candidates. Do not promote unknown intermediate Wave 0A/W0B–2 verdict details to fact.
 - Current external proof remains absent, and GitHub continuity storage does **not** imply application source, Codex reports, test logs, production DB or secrets were ingested. If absolute completeness needed, source local ledger and report files separately, after sanitizing (repo is PUBLIC).
+
+
+### 2026-11-16: SEC-8c R2 acceptance (newest independent review evidence)
+- Exact candidate `036da7b2b8020e87ff41663d8aa18e42f6000b56` independently Codex **ACCEPTED** as reported by Founder; B1/B2 CLOSED, 23/23 tests, canonical migration chain 412/412 with matching schema fingerprint.
+- Mac-local report `/tmp/CODEX_SEC8C_474_R2_INDEPENDENT_REVIEW_036da7b2_2026-11-16.md`; user-provided SHA-256 `b2613c441b4e1936905cd797acb26e9d16cb877275b845827347bcc561cf5ce0`. **Full bytes not in GitHub**. Preserve a copy outside /tmp.
+- Historic R1 REJECTED remains valid for old SHA; SEC-2 `748d292d` is NOT Codex-accepted, needs accepted SEC-8c merge and fresh new SHA/review. Current status and next gate in [CURRENT_STATE](CURRENT_STATE.md).
