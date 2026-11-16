@@ -6,7 +6,8 @@ https://github.com/bharatkarigar/bharat-launchpad-continuity
 **MANDATORY: Read through the connected GitHub integration, not assumptions:**
 1. `START_HERE.md`, `OPERATING_RULES.md`, `CURRENT_STATE.md`;
 2. `evidence/2026_11_16_FULL_DELTA.md` in FULL and `evidence/CONTINUITY_COMPLETENESS_AUDIT_2026_11_16.md`: Nov 8–16 chronological catch-up plus unresolved cross-chat evidence gaps;
-3. `REVIEW_HISTORY.md`, `REVIEW_CANDIDATE_LEDGER.md`, `EVIDENCE_INDEX.md`, `evidence/LOCAL_REVIEW_ARTIFACTS_2026_11_16.md`;\n4. Detailed historical cross-chat recovery: `evidence/PRE_P3_WAVES_0_TO_2_DETAILED_CONTEXT_2026_11_16.md`, `evidence/PRE_P3_WAVES_3_TO_5_DETAILED_CONTEXT_2026_11_16.md`, `evidence/P2_TO_PREP3_RUNTIME_SAFETY_AND_AGENT_WORKFLOW_2026_11_16.md`;
+3. `REVIEW_HISTORY.md`, `REVIEW_CANDIDATE_LEDGER.md`, `EVIDENCE_INDEX.md`, `evidence/LOCAL_REVIEW_ARTIFACTS_2026_11_16.md`;
+4. Detailed historical cross-chat recovery: `evidence/PRE_P3_WAVES_0_TO_2_DETAILED_CONTEXT_2026_11_16.md`, `evidence/PRE_P3_WAVES_3_TO_5_DETAILED_CONTEXT_2026_11_16.md`, `evidence/P2_TO_PREP3_RUNTIME_SAFETY_AND_AGENT_WORKFLOW_2026_11_16.md`;
 5. canonical V10.4 Founder Registry, Scope, Master Plan and execution roadmap (as needed, read relevant full passages).
 
 **As of 2026-11-16 after SEC-8c R2 independent verdict (IST)** (subject to newer evidence):
