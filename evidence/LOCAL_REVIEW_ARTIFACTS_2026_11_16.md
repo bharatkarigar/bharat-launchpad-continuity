@@ -1,0 +1,22 @@
+# Local evidence index: exact user-Mac locations and provenance
+These paths are on the Founder's Mac, **not** available in this GitHub docs repository. Filenames are pointers, not proof this ChatGPT accessed file bytes.
+- Wave5 R3 packet: ~/Downloads/BHARAT_LAUNCHPAD_WAVE_5_PLANNING/W5_GATE/W5_CODEX_R3_PACKET.md
+- Wave5 independent R3 report: ~/Downloads/CODEX_WAVE5_R3_INDEPENDENT_REVIEW_ce811b2a_2026-11-16.md
+- Wave6 QA folder: ~/Downloads/BHARAT_LAUNCHPAD_WAVE_6_QA/
+- Wave6 Founder overnight directive: W6_FOUNDER_DIRECTIVE_2026-11-16.md
+- Wave6 decision record: W6_FOUNDER_DECISIONS_2026-11-16.md
+- Wave6 matrix: W6_MATRIX_CLASSIFIED.md
+- Wave6 blocker status: W6_BLOCKERS_STATUS.md
+- Wave6 final packet: W6_FINAL_CODEX_PACKET.md
+- Wave6 morning status: MORNING_STATUS.md
+- Wave6 independent Codex R1: ~/Downloads/CODEX_WAVE6_INDEPENDENT_REVIEW_db1bed9f_2026-11-16.md
+- SEC8c code packet R1: SEC8C_474/SEC8C_474_CODEX_PACKET.md
+- SEC8c first independent R1 report: /tmp/CODEX_SEC8C_474_INDEPENDENT_REVIEW_6dabf8aa_2026-11-16.md; later reportedly copied into SEC8C_474/codex_r1/
+- SEC8c R1 fix-forward plan: SEC8C_474/codex_r1/SEC8C_FIX_FORWARD_2_PLAN.md
+- SEC8c R2 packet: SEC8C_474/SEC8C_474_CODEX_R2_PACKET.md
+- SEC2 proposed CR-6: SEC2_CR6/SEC2_CR6_PROPOSAL.md
+- SEC2 internal R1 reject: SEC2_CR6/RT_R1_REJECT_b34b81d0.md
+- SEC2 Codex candidate packet (held): SEC2_CR6/SEC2_479_CODEX_PACKET.md
+- Master ledger and original logs referenced by Claude (local only).
+- Local source worktree (reported): ~/Developer/bharat-launchpad-wave2 ; branches pre-p3/wave-5-platform-ux, pre-p3/sec-8c-474, pre-p3/sec-2-479.
+- Evidence access gap: the user did NOT upload actual Codex report contents for this update, only independent verdict summaries and paths. Later new chats should request original local reports when detailed vulnerability disposition matters. Never assert these files are on GitHub.
