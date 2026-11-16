@@ -58,3 +58,7 @@ No J1–J11 complete live-provider journey marked launch-PASS; J3 locally 5/5 on
   - Wave 1 `1848756e2a8de56cc761ad39376f43fd0806c066` — Codex approved **reported**, independently named frozen Wave 1 base in the Wave 2 static gap audit.
   - Wave 2 `4598b4220d61a264dfba728d64fffaddbc8de115` — Codex R2 approved **reported**, named in Nov 14 W3/W4 execution plan.
 - For original report-byte gaps and plan/mandate-versus-verdict distinctions see [completeness audit](evidence/CONTINUITY_COMPLETENESS_AUDIT_2026_11_16.md), [review history](REVIEW_HISTORY.md) and [evidence index](EVIDENCE_INDEX.md). These historical recoveries **do not supersede** Wave 5/6/SEC-8c/SEC-2 current gate above, nor authorize production.
+
+
+## Continuity source-coverage note (16 Nov 2026)
+The [cross-chat completeness audit](evidence/CONTINUITY_COMPLETENESS_AUDIT_2026_11_16.md) recovered Wave 0A/0B/0/1/2 checkpoints; detailed stage histories: [Wave 0–2](evidence/PRE_P3_WAVES_0_TO_2_DETAILED_CONTEXT_2026_11_16.md), [Wave 3–5](evidence/PRE_P3_WAVES_3_TO_5_DETAILED_CONTEXT_2026_11_16.md), [P2/Pre-P3 bridge incl Product Onboarding Q17](evidence/P2_CONTINUITY_BRIDGE_TO_PREP3_V10_4_2026_11_16.md). [Source/hash manifest](evidence/SOURCE_FILE_COVERAGE_AND_HASH_MANIFEST_2026_11_16.md) records which original full reports and UX/capability sources remain missing. The above **SEC2 integration next gate remains unchanged**; no new action took place in application code.
