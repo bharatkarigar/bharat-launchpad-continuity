@@ -56,3 +56,9 @@ Current SEC2 frozen 748d292d tag sec2-479-candidate-748d292d. Claude independent
 - Mac storage status 16 Nov: 26 GiB available, no active ENOSPC, old 14 Nov disk full error; temp DB 113 MiB, no cleanup/deletion authorized. Temporary context only.
 - Explicit Founder HOLD on extra SEC development had later narrow scoped override approvals for SEC2 F1/F2/N1 and SEC8c B1/B2. Do not read these as blanket authorization for new features/deploy. If fresh Codex rejection, pause for scoped minimum fix plan/authorization.
 - Local engineering ~90% was a Claude estimate, QA PASS 83/110=75.45% locally, NOT production readiness. '0% production gate complete' was reported, not a statement existing P2 live service doesn't exist.
+
+
+---
+
+## 2026-11-16 subsequent update — SEC-8c Codex R2 ACCEPTED
+Founder supplied independent Codex R2 acceptance at exact `036da7b2b8020e87ff41663d8aa18e42f6000b56`. R1 REPEATABLE READ bypass (B1) CLOSED; migration-installation race (B2) CLOSED. Fail-before reproduced on rejected `6dabf8aa`; SEC-8c 23/23, dependent migrations 475 8/8, 477 9/9, 478 22/22; canonical 412/412; fingerprint matched. No new candidate blockers. Original independent report Mac-only `/tmp/CODEX_SEC8C_474_R2_INDEPENDENT_REVIEW_036da7b2_2026-11-16.md`, SHA256 reported `b2613c441b4e1936905cd797acb26e9d16cb877275b845827347bcc561cf5ce0` (not inspected/uploaded). Remaining production 139 pin refusals, authorized preflight, existing data, maintenance window, no deployment authority. **Earlier 'R2 pending' descriptions in this chronological file are now historical, not current.** Next integrate accepted SEC-8c into SEC-2 via no-rebase merge, rerun and independently review new SEC-2 SHA. Wave6/Staff open.
