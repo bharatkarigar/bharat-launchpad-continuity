@@ -45,3 +45,14 @@
 - This audit's additional SHAs/decisions are **source-pointer or earlier-chat-reported**, not a new independent Git commit/code audit.
 - No app code, production DB, provider, feature flag, branch, P1 pins, release/go-live action was touched by this documentation-only reconciliation.
 - Earlier chronological snapshots remain for provenance; newer statements override only active status. No known rejected candidate has been promoted to accepted without a separately reported exact SHA.
+
+
+---
+
+## Audit remediation carried out in the public documentation repo (same day)
+The initial gaps above have been partially addressed with new structured sanitized continuity pages:
+- [Wave 0–2 detailed continuity](PRE_P3_WAVES_0_TO_2_DETAILED_CONTEXT_2026_11_16.md) with exact reported SHA/version lineage, WP06/07 WP08/12/14/16, Wave1 authoritative ingest and 27 Wave2 static issue dispositions.
+- [Wave 3–5 detailed continuity](PRE_P3_WAVES_3_TO_5_DETAILED_CONTEXT_2026_11_16.md) with WP05/17/18 C1–C3; WP22/23 C4a–C6.4; Wave5 D0–D6 and specific B1/B2/B3 rejections and R3 acceptances.
+- [P2/Pre-P3 runtime and agent workflow](P2_TO_PREP3_RUNTIME_SAFETY_AND_AGENT_WORKFLOW_2026_11_16.md), [P2 source decision bridge / Q17](P2_CONTINUITY_BRIDGE_TO_PREP3_V10_4_2026_11_16.md), [exact-SHA review ledger](../REVIEW_CANDIDATE_LEDGER.md), [file/source SHA-256 inventory](SOURCE_FILE_COVERAGE_AND_HASH_MANIFEST_2026_11_16.md).
+- `CURRENT_STATE.md`, `REVIEW_HISTORY.md`, `EVIDENCE_INDEX.md`, `START_HERE.md`, `NEW_CHAT_BOOTSTRAP.md` are reconciled with later SEC-8c Codex R2 **ACCEPTED**. Wave6 **REJECTED**, SEC2 new merge/review pending.
+**Still missing:** original independent Codex/Red-Team report bytes and full 110-row/506-manifest/UX sources, current local branch data and live provider proof. These cannot be reconstructed as real evidence from chat summaries or uploaded publicly without review and sanitization. Consequently the repository is now substantially more complete for *decision/action continuity*, but is still **NOT a lossless A-to-Z original-evidence archive**.
