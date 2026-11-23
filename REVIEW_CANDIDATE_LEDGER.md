@@ -75,3 +75,10 @@ See [CURRENT_STATE.md](CURRENT_STATE.md), [REVIEW_HISTORY.md](REVIEW_HISTORY.md)
 | S2-2 Shopify version release | **not executed** | HOLD / NOT AUTHORIZED | install architecture + IP allowlist unresolved |
 
 Read [Orzik A-to-Z](evidence/ORZIK_SHOPIFY_A_TO_Z_CONTINUITY_2026_11_23.md) and [current Orzik gate](ORZIK_CURRENT_GATE_2026_11_23.md). This is a **separate** release lineage; historical Wave6 R1 REJECT and other Pre-P3 verdicts remain preserved unchanged.
+
+
+### 23 Nov 2026 — S2-A2 freezes for independent Codex (Founder-forwarded Claude report)
+| Candidate/event | Exact SHA | Status | Evidence gaps |
+|---|---|---|---|
+| S2-A2 (Orzik-only legacy install flag, OAuth membership callback P2, resolver/domain P3 tests) | **9a8dd26fc5d68188c4564c2b91440b2e64da6b78** | **LOCAL FROZEN, CODEX PENDING**; 16,103 tests PASS, TS 53 preexisting errors, lint/build pass; internal red-team APPROVE | No independent Codex verdict, no released Shopify behavior, no GitHub/Vercel deployment. Original private packet 23 and logs not yet uploaded. |
+| IP ASN network mapping | 114 IPs → **AS14618** (both Cymru/RIPEstat per Claude) | **REPORTED; QA proposal only** | No direct Shopify egress guarantee; no IP allowlist config/enforcement |
