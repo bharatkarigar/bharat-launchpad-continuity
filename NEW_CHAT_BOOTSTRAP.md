@@ -1,5 +1,9 @@
 # New chat — Paste this in the Bharat Launchpad Project
 
+> **NEWER ORZIK SHOPIFY WORKSTREAM — 23 Nov 2026:** For the user's current **Orzik Shopify Public App Stage2** continuation, the original Pre-P3 prompt below is HISTORICAL and must not determine the next action. Instead read [ORZIK_NEW_CHAT_HANDOFF.md](ORZIK_NEW_CHAT_HANDOFF.md), [ORZIK_CURRENT_GATE_2026_11_23.md](ORZIK_CURRENT_GATE_2026_11_23.md), [full Orzik chronology](evidence/ORZIK_SHOPIFY_A_TO_Z_CONTINUITY_2026_11_23.md), and [Orzik Founder decisions](ORZIK_FOUNDER_DECISIONS.md). Stage1 closed DARK; S2-A Codex approved; S2-A2 local pending; Shopify S2-2 HOLD; 114-IP ASN mapping pending and # New chat — Paste this in the Bharat Launchpad Project
+00/month static IP option rejected. Preserve the below Pre-P3 context for that separate track. No deploys/install/flags/migrations authorized through continuity docs.
+
+
 Resume Bharat Launchpad Pre-P3 from the canonical versioned GitHub continuity repository:
 https://github.com/bharatkarigar/bharat-launchpad-continuity
 
