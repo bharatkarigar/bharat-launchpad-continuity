@@ -62,3 +62,16 @@ See [CURRENT_STATE.md](CURRENT_STATE.md), [REVIEW_HISTORY.md](REVIEW_HISTORY.md)
 - Claude's prior R2 candidate report (not independently reproduced by this continuity update) stated 15,936 Vitest PASS / 0 FAIL, `test:pre-p3` PASS with expected-red OT-11, E2E 216/217 due deferred D-MS10-2, DB/migration/build/type/lint/privacy gates pass. Reported revised 110-row matrix: 88 local PASS, 4 FAIL (`RT-06` Staff authorization, `OT-11` Founder ruling, `RG-05` and `RG-06` release pins), 1 DEFERRED, 4 NOT PROVEN, 13 EXTERNALLY BLOCKED. This matrix remains subject to actual original Codex report scope and evidence limitations; no live J1–J11 launch-PASS.
 - Founder explicitly directs **Staff existing roles/permissions/module UNTOUCHED for now**, while confirmed supplemental vendor WhatsApp initiation authorization vulnerability remains OPEN/NOT WAIVED. OT-11 and CR-7 Prepaid label final wording require actual evidence/Founder decision; do not invent either. Migration333 rollback/repin, SEC5 prod preflight, migrations454–479, SEC8c prod link count, SEC2 prod window, staging, live Shopify/Wix/Delhivery/WhatsApp proof, privacy/release pins and final integrated review remain open approval/release gates.
 - **Status distinction:** independent Codex ACCEPTED *non-Staff scoped candidate at exact SHA*, NOT full Wave6 closure, NOT Pre-P3 release authorization, NOT Staff security acceptance. Preserve Wave6 R1 rejection and historical SHAs. No automatic next development assignment or production action.
+
+
+## 2026-11-23 — Separate Orzik Shopify candidate/release ledger
+| Candidate/event | Exact SHA or ID | Verdict / release state | Caveat |
+|---|---|---|---|
+| Stage1 approved release app | e6e05f99e46872debfbab254ffb31d3fa6c73fa5 | GitHub main, Vercel READY (dpl_2pmJ3bgTn1GXwnoXjqpoeT3yGFuU) | DARK, not public activation |
+| Stage1 prod DB apply | exec 64e685fe-2203-4c80-bd5c-ba0c54c9bbe6 | 480/481/483/484 applied, prefix 95/95 | 482 deferred; separate signed future release |
+| Stage1 independent signed status | exec f49b80d1-3849-45b8-afbc-aafb4b5039fe | 95/95 verified, owner parity zero | second read-only signed run |
+| S2-A allow-list local candidate | d48a2d8cc1092077f320d707de8a0d6a90a61620 | **CODEX_S2A_APPROVED**; 0 P0/P1 | 1 P2/2 P3, **not pushed/deployed** |
+| S2-A2 new candidate | **not frozen/reported** | Builder IN PROGRESS | fresh local tests/red-team/Codex required |
+| S2-2 Shopify version release | **not executed** | HOLD / NOT AUTHORIZED | install architecture + IP allowlist unresolved |
+
+Read [Orzik A-to-Z](evidence/ORZIK_SHOPIFY_A_TO_Z_CONTINUITY_2026_11_23.md) and [current Orzik gate](ORZIK_CURRENT_GATE_2026_11_23.md). This is a **separate** release lineage; historical Wave6 R1 REJECT and other Pre-P3 verdicts remain preserved unchanged.
