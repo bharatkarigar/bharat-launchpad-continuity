@@ -1,4 +1,12 @@
 # Bharat Launchpad — CURRENT EXECUTION STATE
+
+## 23 NOV 2026 — NEWER ORZIK SHOPIFY STATUS (separate from the historical Pre-P3 snapshot)
+
+**The Pre-P3 text below is a 16 Nov historical checkpoint, NOT the current Orzik Shopify release state.** Orzik Shopify Stage1 is CLOSED controlled dark in production: code e6e05f99e46872debfbab254ffb31d3fa6c73fa5 (Vercel dpl_2pmJ3bgTn1GXwnoXjqpoeT3yGFuU READY); signed DB prefix 95/95 applying 480/481/483/484, migration 482 deferred. Stage2: S2-A local d48a2d8cc1092077f320d707de8a0d6a90a61620 independent Codex APPROVED, not pushed; S2-1 Shopify CLI read-only identity PASS; S2-A2 local builder in progress; S2-2 Shopify config deploy HOLD; 114 Supabase source IPs sampled but origin ASNs unverified. Founder forbids # Bharat Launchpad — CURRENT EXECUTION STATE
+00/month static IP upgrades or other unapproved recurring costs. Do NOT enable Orzik or onboarding, install app, execute 482 or modify old Shopify app.
+
+**Current Orzik handoff:** [ORZIK_CURRENT_GATE_2026_11_23.md](ORZIK_CURRENT_GATE_2026_11_23.md) → [full chronology](evidence/ORZIK_SHOPIFY_A_TO_Z_CONTINUITY_2026_11_23.md) → [decisions](ORZIK_FOUNDER_DECISIONS.md). All below Pre-P3 statuses/rejections remain preserved for their own workstream, and are not silently closed by the Orzik Stage1 release.
+
 **As-of:** 2026-11-16, after Founder-provided Wave 6 R2 non-Staff independent Codex ACCEPTED result. Execution outcomes are founder-reported; application Mac and original Codex report not accessed through public GitHub docs.
 
 ## Immediate handoff — READ THIS FIRST
