@@ -82,3 +82,10 @@ Read [Orzik A-to-Z](evidence/ORZIK_SHOPIFY_A_TO_Z_CONTINUITY_2026_11_23.md) and 
 |---|---|---|---|
 | S2-A2 (Orzik-only legacy install flag, OAuth membership callback P2, resolver/domain P3 tests) | **9a8dd26fc5d68188c4564c2b91440b2e64da6b78** | **LOCAL FROZEN, CODEX PENDING**; 16,103 tests PASS, TS 53 preexisting errors, lint/build pass; internal red-team APPROVE | No independent Codex verdict, no released Shopify behavior, no GitHub/Vercel deployment. Original private packet 23 and logs not yet uploaded. |
 | IP ASN network mapping | 114 IPs → **AS14618** (both Cymru/RIPEstat per Claude) | **REPORTED; QA proposal only** | No direct Shopify egress guarantee; no IP allowlist config/enforcement |
+
+
+## 23 Nov 2026 — S2-A2 independent verdict supersedes earlier PENDING entry
+| Scope | Exact SHA | Independent verdict | Major finding | Next action |
+|---|---|---|---|---|
+| Orzik S2-A2 legacy-flow + authorization P2/P3 changes | **`9a8dd26fc5d68188c4564c2b91440b2e64da6b78`** | **`CODEX_S2A2_REJECTED`** | **P1** legacy flow + app-specific webhook config incompatibility; **P2** stale orders entitlement; **P3** signed initiator vs current browser | Local-only fix-forward; pinned Shopify CLI validator proof, preserve mandatory compliance and uninstall, fresh independent Codex. **No app deploy.** |
+- Independent Codex reran 77 focused tests (6 files) PASS. Builder reported full 16,103 tests PASS; 53 inherited TS errors; typecheck not green. Packet SHA256 `f1fe00fa6cc7db42588d3a2b6f853f5f64229d2b6c9c6abb037028eb18720feb`. No new candidate frozen/reviewed after this rejection.
