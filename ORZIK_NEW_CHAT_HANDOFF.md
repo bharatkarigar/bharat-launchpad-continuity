@@ -21,3 +21,7 @@ Paste this at the start of a new ChatGPT conversation within Bharat Launchpad Pr
 > Keep old Founder decision history; label CLAUDE REPORTED, TOOL-VERIFIED, CODEX original, NOT PROVEN. Treat current status as of 23 Nov only and reconcile any new chat updates via GitHub connector. Explain in Hinglish, one next operator action at a time. If private local evidence not available, do not claim it was independently re-read. No background auto-sync.
 
 **Important:** Continuity GitHub is public documentation, not SaaS code, signed production logs or a verbatim chat transcript. This bootstrap preserves actionable project state, but complete private source transcripts remain outside GitHub.
+
+
+## 23 Nov 2026 new checkpoint (supersedes preceding “S2-A2 builder in progress” wording)
+Claude MAIN now reports S2-A2 **frozen locally** at exact **9a8dd26fc5d68188c4564c2b91440b2e64da6b78** on feat/orzik-s2a-allowlist, 16,103 tests passed, red-team APPROVE, independent **Codex PENDING**. Packet 23 located in private Mac evidence pack; no push/deploy. Callback membership P2 and two P3 improvements included, config legacy install flow=true only locally. ASN mapping of observed 114 IPs independently cross-checked by Claude at AS14618 US, **unverified for direct Shopify egress**, QA candidate only, no settings made. **NEXT:** Founder runs independent Codex exact SHA and returns original verdict. S2-2 HOLD and dark flags unchanged. Keep broader earlier handoff context but use this latest status for the immediate next action.
